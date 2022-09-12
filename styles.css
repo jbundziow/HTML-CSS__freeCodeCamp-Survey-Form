@@ -1,0 +1,230 @@
+body {
+    background-color: black;
+    margin: 10px auto;
+    font-family: Tahoma;
+    font-size: 16pt;
+    color: white;
+}
+
+#survey-form {
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #1b1b32;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h1, p {
+    width: 70%; /*the same as survey-form*/
+}
+
+h1 {
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    font-size: 36pt;
+    color: white;
+    margin: 10px auto;
+}
+
+p {
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    font-size: 12pt;
+    color: white;
+    margin: 10px auto;
+}
+
+p:hover, label:hover {
+	cursor: text;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+input[type="radio"]:hover, input[type="checkbox"]:hover {
+	cursor: pointer;
+}
+
+.optional {
+	display: inline; 	
+}
+
+.star {
+	display: inline;
+	font-family: Tahoma;
+    font-size: 16pt;
+}
+
+.form-group {
+    padding: 8px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#radio-label label {
+    display: block;
+}
+
+.checkboxes label {
+display: block;
+}
+
+#name-label input {
+    display: block;
+    margin-top: 5px;
+}
+
+#email-label input {
+    display: block;
+    margin-top: 5px;
+	width: 50%;
+}
+
+#number-label input {
+    display: block;
+    margin-top: 5px;
+}
+
+#dropdown-label select {
+    display: block;
+    margin-top: 5px;
+}
+
+#dropdown2-label select {
+    display: block;
+    margin-top: 5px;
+}
+
+#checkbox label {
+    display: block;
+    margin-top: 5px;
+}
+
+#dropdown-label select {
+    display: block;
+    margin-top: 5px;
+}
+
+#radio-label label{
+    display: block;
+    margin-top: 5px;
+}
+
+#suggestions-label label {
+    display: block;
+
+}
+textarea {
+        display: block;
+        width: 90%;
+         margin: 10px auto;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        min-height: 10em;
+        font-size: 16pt;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    width: 60%;
+    height: 2em;
+    background-color: grey;
+    border-color: white;
+    border-width: 3px;
+}
+   
+    input[type="submit"]:hover {
+        cursor: pointer;
+    }
+
+    .submit-button {
+        display: block;
+        padding: 2px 0;
+    }
+
+    #survey-form {
+        padding-bottom: 2px;
+        /*padding-left: 10px;*/
+        margin: 10px auto;
+    }
+
+    input[type="radio"] {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+
+
+
+    input[type="checkbox"] {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+
+    input, select {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        min-height: 18pt;
+        font-size: 16pt;
+    }
+
+    select {
+        min-width: 40%;
+    }
+
+
+    option {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+      }
+
+      hr {
+        width: 100%;
+        text-align: left;
+      }
+
+
+      @media screen and (max-width: 700px) { /*SMALLER SCREENS*/
+        #name-label input {
+            width: 90%;
+        }
+
+        #email-label input {
+            width: 90%;
+        }
+
+        #number-label input {
+            width: 90%;
+        }
+
+        select {
+            width: 90%;
+        }
+
+        h1 {
+            font-size: smaller;
+        }
+
+    }
+    
+    .author p {
+        font-family: monospace;
+        text-align: center;
+        margin: 2px auto;
+        padding-top: 4px;
+    }
+    
+    .author a {
+        font-family: monospace;
+        color: white;
+    
+    }
